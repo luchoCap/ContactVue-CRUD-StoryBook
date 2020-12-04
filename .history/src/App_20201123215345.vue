@@ -1,19 +1,23 @@
 <template>
   <v-app>
     <v-main>
-      <Contact />
+      <ContactList/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Contact from './components/Contact/Contact'
+import ContactList from './components/Contact/ContactList'
 
 export default {
   name: 'App',
 
   components: {
-    Contact
+    ContactList,
   },
+
+  data: () => ({
+    //
+  }),
 };
 </script>
