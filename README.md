@@ -1,4 +1,4 @@
-# lababmjest
+# CRUD VUE STORYBOOK
 
 ## Project setup
 ```
